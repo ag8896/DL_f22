@@ -1,5 +1,6 @@
 test1
 additional line
 step 6 again
+Hi!
 branch branch branch
 suggestions
