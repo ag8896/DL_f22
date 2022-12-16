@@ -4,42 +4,52 @@ Survey of platforms for streaming audiovisual content, crowdsourcing digital hum
 Anthony Gonzalez
 
 
-Project summary
+Project summary:
+
 The goal of this project is to survey the current landscape of available tools for streaming audiovisual content, and for crowdsourcing research in the digital humanities. In doing so, I hope to contribute to the preliminary design of a streaming platform which would allow researchers to submit and respond to research queries about the content of videos hosted on the platform. This survey would correspond with the ‘Define’ and ‘Ideate’ stages of the Design Thinking process. This would work to address the ongoing problem of entity recognition in researching archival audiovisual collections.
 
 The following platforms will be surveyed against 5 criteria (support for content chaptering/navigation, personal navigation, presentation of contextual information, user community support and scope of user questions): Aviary (AVP), By the People (Library of Congress), Pybossa (Scifabric).
 
+------------
 
-The Problem
+The Problem:
+
 While rewarding, contextual research into archival footage is time-consuming and difficult. Archival audiovisual collections contain a wide variety of films, including amateur films, news broadcasts and outtakes, B-roll, and home movies. From a researcher’s perspective, metadata about these films, such as when and where footage was filmed, is usually incomplete. Informational content in the collection items themselves is often presented in an unorganized and opaque fashion, making it hard to discern potential leads for further research. Understanding key information may require specific cultural knowledge, such as recognizing a particular kind of consumer product, cultural or political figure, or information relating to local culture and events. This information may be shown visually or via audio recording. Incidental recordings or poor audio quality can obscure specific areas of the video, providing enough information to indicate the presence of such information but not enough to conclusively identify. Lacking this knowledge, a researcher may fail to identify a particular aspect of a film, such as a landmark in the distance, as significant. However, another researcher may have more information, or a novel approach to the material. 
   
 Providing a platform for researchers to collaborate on researching an audiovisual archive’s collections would expedite this process, as each researcher would be able to contribute their own areas of expertise for analyzing collection items. Ideally, this would allow for researchers to identify people, locations and objects featured in the archive’s audiovisual collections to provide important historical and cultural context to collection items. Due to the often-sensitive nature of these materials, this platform would be intended to be used by archives seeking research into collection items prior to public accessioning.
 
 The following survey of current software platforms for streaming audiovisual content and for crowdsourcing digital humanities research corresponds with the ‘Ideate’ phase of this larger project, which can involve evaluating existing systems to see how well they meet the needs identified in the earlier ‘Empathize’ and ‘Define’ phases.
 
- 
-Criteria 
+------------
+ 
+Criteria:
+
 I developed 5 criteria to survey currently available tools for streaming audiovisual content and crowdsourcing of digital humanities research. These are organized around two main themes: 
   
-Navigation of audiovisual content
+Navigation of audiovisual content:
 1.	Chaptering: Platform provides timestamps in metadata for navigation, access via search engine
 2.	Personal navigation: Users are able to make their own timestamps, or bookmark existing timestamps for personal use
 3.	Context: Platform allows content to be linked to other collection items, external sources
 
-Support for in-platform collaboration
+Support for in-platform collaboration:
+
 4.	User community: End-users are able to post and respond to research queries
 5.	Scope of queries: Research queries can be associated with specific items, portions of a specific item
 These criteria are chosen to support the larger project’s objective of developing a contributory project, where researchers are tasked with tagging, linking, categorizing and providing contextual information on collection items. 
  
+ ------------
  
 Platform Evaluations
 Platform 1: Aviary by AVP
+
 Description:
+
 Aviary is an audiovisual streaming platform designed by AVP, a software developer of digital asset management (DAM) solutions for institutions in the GLAM (Galleries, Archives, Museums and Libraries) sector.
 
 Institutions which use Aviary to host audiovisual content can add several layers of transcripts, annotations and indexes; these layers are exposed to end-users streaming the audiovisual content. These layers are timestamped, allowing for easier user navigation within a video, and tagged for searching, allowing end-users interested in a particular topic to quickly search for related videos and to see how their search results are relevant to their specific search; the latter seems analogous to the idea behind Google Books’ snippet view.
 
 Layers include a transcript of audible dialog, indexes and supplemental files. Layers are displayed as tabs to the right of Aviary’s embedded player. The transcript advances in real-time during playback, and each phrase in the transcript can act as a timestamp which users can use to navigate the video. Indexes are similarly timestamped, and allow for users to navigate the video by topic. Phrases and indexes support owner-supplied annotations, which can be used to provide further contextual information. Annotations can link to external sources; it is not clear if annotations can also link to other timestamps within a given item, or to other items owned by the institution which are also hosted on Aviary. Supplementary files may also be provided; there does not seem to be a restriction on supported file types.
+
 
 Evaluation:
 1.	Content chaptering: Aviary provides several distinct layers for chaptering in metadata, both for quick navigation within items and for increased searchability
@@ -57,9 +67,12 @@ This implies user communities can be maintained by participating institutions, b
 Other notes:
 Aviary’s placement of the transcript, index, and supplemental files tabs alongside the embedded audiovisual player is very useful for the kind of contextual research which this project aims to support. This allows both the video and supplementary information to be visible onscreen at the same time.
 
+------------
  
 Evaluation 2: By the People by Library of Congress
+
 Description:
+
 By the People is a crowdsourcing platform launched by the Library of Congress (LoC) in 2018 for document transcription. Volunteers view digitized scans of documents from the Library’s collection and submit transcriptions; volunteers also review submitted transcriptions for accuracy. Documents can pass through transcription and review multiple times before being accepted as complete.
 
 When transcribing, volunteers are presented with a series of open transcription campaigns centered on specific LoC collections. Collections and pages are marked according to their completion status. Transcribers are not required to complete transcribing a page before proceeding onto the next; they are encouraged to come and go as they please. Transcribers work locally; a ‘Save’ option publishes their transcriptions. Transcribers can also submit their completed transcriptions for review.
@@ -76,6 +89,7 @@ By the People runs on Concordia, an open-source platform developed by the Librar
 
 
 Evaluation:
+
 1.	Content chaptering: Images are only 1-2 pages long, so there is little need for chaptering. As the items have not been transcribed, they cannot be chaptered either. 
 
 No tools are given to associate specific areas of the image with specific words or phrases in the transcription; this would ideally allow for transcribers and reviewers to more easily identify portions of a document which require further attention for various reasons (e.g. unclear handwriting or unusual script, damage to paper or ink, etc).
@@ -88,13 +102,19 @@ No tools are given to associate specific areas of the image with specific words 
 
 5.	Scope of queries: History Hub does not provide a way to associate or tag questions to ongoing transcription campaigns for By the People, or to items within the scope of these campaigns.
 
+
 Other notes:
+
 Separating History Hub from By the People would allow research questions to be more visible, rather than restricting them to just the relevant collection or individual items. The anonymity of transcription also removes any need for transcription questions to be associated with a particular user; another anonymous user could finish transcribing the document in question.
 
 By design, By the People is limited to textual materials. Limiting transcription items to individual pages in a larger collection largely removes the need for content chaptering or personal navigation tools, which are more necessary for navigation of audiovisual materials.
 
+------------
  
 Evaluation 3: Pybossa by Scifabric
+
+Description:
+
 Pybossa is a crowdsourcing server application developed for Python3 by Scifabric. Once Pybossa is installed on a server application, server administrators can create crowdsourcing projects. Projects consist of several tasks, which can follow one of several templates provided by Scifabric. 
 
 Available templates include: image classification, audio and visual recognition, document transcription from PDFs, and geolocating. Tasks are generally simple and take on several basic formats for user input, such as: responding to a Yes/No or multiple-choice question, transcribing a PDF, and marking specific points on an image.
@@ -109,7 +129,9 @@ Several of Pybossa’s premade task templates address different kinds of entity 
 
 Tasks can likely be modified to allow volunteers to provide more general answers, but this would also require that project managers regularly analyze volunteer responses and make new tasks based on trends in volunteer research or their own priorities.	
 
+
 Evaluation:
+
 1.	Content chaptering: Examples of volunteer tasks involving video do not involve chaptering. Videos are generally shorter in length, which would remove the need for chaptering.
 
 2.	Personal navigation: Tasks involving audio and video do not support features for ease of personal navigation, such as bookmarking particular timestamps. Plug-ins could support these features for longer audiovisual materials, or to allow users to pinpoint timestamps in an audiovisual work when a particular sound or image occurs.
@@ -122,7 +144,10 @@ Tasks are intended to be self-contained. Tasks do not appear to display any link
 
 5.	Scope of queries: Project managers import tasks for on-demand delivery to volunteers. Pybossa can import digital files from various sources to deliver as part of tasks to volunteers. Tasks can be tied to at least one collection item, but this association is done on the backend.
 
+------------
+
 Conclusions:
+
 No single product on the market is currently available which allows users to make timestamped annotations which can be viewed by other researchers in the community
 
 So far, other existing platforms focus on supporting timestamps/exposing object metadata or providing a framework for crowdsourcing, but not both.
@@ -143,6 +168,7 @@ Aviary’s layout lends itself to embedding forum content alongside videos; its 
 
 By the People and MicroPasts both present project completion status to volunteers. A similar display would also make sense for crowdsourcing research into audiovisual materials. However, for these platforms, tasks are created and assigned to projects by project managers representing collection owners.
 
+------------
  
 Bibliography
 
