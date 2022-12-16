@@ -1,8 +1,10 @@
 # DL_f22
 
 Survey of platforms for streaming audiovisual content, crowdsourcing digital humanities research
+
 Anthony Gonzalez
 
+------------
 
 Project summary:
 
